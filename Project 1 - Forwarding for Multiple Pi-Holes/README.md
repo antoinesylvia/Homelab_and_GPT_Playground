@@ -6,3 +6,5 @@ Needed to build a quick "forwarding" service for my 3 GEN 1, Raspberry Pis which
 5. Edit and add your webhook URL for Discord (will get a notification if the code fails).
 
 Note: Due to socket access this needs to be ran with admin priviledges or will fail. 
+
+![Sample Image](https://github.com/antoinesylvia/Homelab_and_GPT_Playground/blob/737c3e5a32ceda8e51dba54bc229fcf1f300cfcc/Project%201%20-%20Forwarding%20for%20Multiple%20Pi-Holes/sample.png)
