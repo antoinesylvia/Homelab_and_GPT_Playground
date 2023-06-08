@@ -12,3 +12,5 @@ Due to socket access this needs to be ran with admin priviledges or will fail.
 NGINX can also handle this function but you would need to compile it with the "streams" module: https://www.nginx.com/blog/announcing-udp-load-balancing/
 
 Sample Flow: User > Unifi Security Gateway > Forwarder/Load Balancer(s) for DNS x2 > PiHole x3 (blocks ads and points to upstream DNS servers) > DNScrypt Proxy (DNS over TLS or DNS over HTTPS) > Public DNS (with no logging) or fallback to Unbound (recursive DNS installed locally x2).
+
+Let this run for at least 12 hours before setting this as a service. 
