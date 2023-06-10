@@ -9,9 +9,7 @@ packages = {
     "random": "random",
     "datetime": "datetime",
     "os": "os",
-    "requests": "requests",
-    "dns.message": "dnspython",
-    "dns.name": "dnspython"
+    "requests": "requests"
 }
 
 for import_name, package_name in packages.items():
