@@ -10,6 +10,7 @@ packages = {
     "datetime": "datetime",
     "os": "os",
     "requests": "requests"
+    "dnspython": "dnspython"
 }
 
 for import_name, package_name in packages.items():
